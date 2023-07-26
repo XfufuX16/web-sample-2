@@ -1,4 +1,4 @@
-NAMAUSER=user1
+NAMAUSER=XfufuX16
 docker rm -f aws1-$NAMAUSER
 docker run -it --name aws1-$NAMAUSER \
 	-e USERNAME=$NAMAUSER \
